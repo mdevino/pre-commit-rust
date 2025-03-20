@@ -5,6 +5,13 @@
     language: system
     files: \.rs$
     args: []
+-   id: fmt-nightly
+    name: fmt nightly
+    description: Format files with cargo +nightly fmt.
+    entry: cargo +nightly fmt --
+    language: system
+    files: \.rs$
+    args: []
 -   id: cargo-check
     name: cargo check
     description: Check the package for errors.
